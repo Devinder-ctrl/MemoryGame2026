@@ -8,51 +8,52 @@
 import SwiftUI
 
 struct ContentView: View {
-    let images = ["pencil", "eraser", "scribble", "lasso"]
+    private let images = ["pencil", "eraser", "scribble", "lasso"]
     
     @State private var curIndex = 0
+    
     var body: some View {
-        
-        VStack {
-            HStack{
-                Image(systemName: "arrowtriangle.left")
-                    .resizable().aspectRatio(contentMode: .fit)
-                    .frame(width: 60)
-                    .foregroundStyle(.tint)
-                    .onTapGesture{
-                       
-                            if curIndex == 0{
-                                curIndex = 3
-                            }
-                            else if curIndex != 2 || curIndex != 1 || curIndex != 0{                                curIndex = curIndex - 1
-                            
-                        }
-                    }
-               
-                  Image(systemName: images[curIndex])
-                        .resizable().aspectRatio(contentMode: .fit)
-                        .foregroundStyle(.black)
+        VStack(spacing: 16) {
+            HStack(spacing: 24) {
+                Button(action: previous) {
+                    Image(systemName: "arrowtriangle.left")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60)
+                }
+                .buttonStyle(.plain)
+                .foregroundStyle(.tint)
                 
-                    
+                Image(systemName: images[curIndex])
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundStyle(.primary)
+                    .frame(height: 120)
                 
-                Image(systemName: "arrowtriangle.right")
-                    .resizable().aspectRatio(contentMode: .fit)
-                    .frame(width: 60)
-                     .foregroundStyle(.tint)
-                    .onTapGesture {
-                           
-                            if curIndex == 0 || curIndex == 1 || curIndex == 2{
-                                curIndex = curIndex + 1
-                            }
-                            else if curIndex == 3{
-                                curIndex = 0
-                            }
-                        }
+                Button(action: next) {
+                    Image(systemName: "arrowtriangle.right")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60)
+                }
+                .buttonStyle(.plain)
+                .foregroundStyle(.tint)
             }
-                Text(images[curIndex])
             
+            Text(images[curIndex])
+                .font(.headline)
+                .monospaced()
         }
         .padding()
+    }
+    
+    // MARK: - Actions
+    private func previous() {
+        curIndex = (curIndex - 1 + images.count) % images.count
+    }
+    
+    private func next() {
+        curIndex = (curIndex + 1) % images.count
     }
 }
 
