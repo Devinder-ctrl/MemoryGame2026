@@ -18,16 +18,19 @@ struct ContentView: View {
                 Image(systemName: "arrowtriangle.left")
                     .resizable().aspectRatio(contentMode: .fit)
                     .frame(width: 60)
-                    .padding(.horizontal, 17)
-                    .imageScale(.large)
                     .foregroundStyle(.tint)
                     .onTapGesture{
-                      curIndex = (curIndex - 1 + images.count) % images.count
+                       
+                            if curIndex == 0{
+                                curIndex = 3
+                            }
+                            else if curIndex != 2 || curIndex != 1 || curIndex != 0{                                curIndex = curIndex - 1
+                            
+                        }
                     }
                
                   Image(systemName: images[curIndex])
                         .resizable().aspectRatio(contentMode: .fit)
-                        .imageScale(.small)
                         .foregroundStyle(.black)
                 
                     
@@ -35,12 +38,16 @@ struct ContentView: View {
                 Image(systemName: "arrowtriangle.right")
                     .resizable().aspectRatio(contentMode: .fit)
                     .frame(width: 60)
-                    .padding(.horizontal, 17)
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
+                     .foregroundStyle(.tint)
                     .onTapGesture {
-                        curIndex = (curIndex + 1) % images.count
-                    }
+                           
+                            if curIndex == 0 || curIndex == 1 || curIndex == 2{
+                                curIndex = curIndex + 1
+                            }
+                            else if curIndex == 3{
+                                curIndex = 0
+                            }
+                        }
             }
                 Text(images[curIndex])
             
