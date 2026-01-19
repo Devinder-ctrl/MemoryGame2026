@@ -34,6 +34,7 @@
 		F3BA71E42F1EEA0A00EA865A /* Exceptions for "MemoryGame2026" folder in "MemoryGame2026UITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				ContentView.swift,
 				GameView.swift,
 			);
 			target = F30498A22F0C82E100FAE88E /* MemoryGame2026UITests */;

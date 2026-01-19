@@ -24,5 +24,5 @@ struct GameView: View {
 }
 
 #Preview{
-    ContentView()
+    GameView()
 }

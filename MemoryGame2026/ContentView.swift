@@ -11,30 +11,30 @@ struct ContentView: View {
     @State var images2 = ["gear", "house"]
     @State var index = 0
     var body: some View {
-    
+        
         NavigationStack{
-                        VStack{
-                            if index == 0{
-                                SettingsView()
-                                
-                            }else{
-                                GameView()
-                            }
-                        }
-                    }
-                    .toolbar{
-                        ToolbarItemGroup{
-                            Button(action: {
-                                index = (index + 1) % images2.count
-                            },label: {
-                                Image(systemName: images2[(index + 1) % images2.count])
-                            })
-                        }
-                    }
+            VStack{
+                if index == 0{
+                    SettingsView()
+                    
+                }else{
+                    GameView()
+                }
+                
+            }
+            .toolbar{
+                ToolbarItemGroup{
+                    Button(action: {
+                        index = (index + 1) % images2.count
+                    },label: {
+                        Image(systemName: images2[(index + 1) % images2.count])
+                    })
                 }
             }
-        
+        }
+    }
     
+}
    
 
 
