@@ -27,11 +27,25 @@
 		F304988C2F0C82DF00FAE88E /* MemoryGame2026.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame2026.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30498992F0C82E100FAE88E /* MemoryGame2026Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGame2026Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30498A32F0C82E100FAE88E /* MemoryGame2026UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGame2026UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BA71E22F1EE6ED00EA865A /* MemoryGame2026.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MemoryGame2026.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3BA71E42F1EEA0A00EA865A /* Exceptions for "MemoryGame2026" folder in "MemoryGame2026UITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				GameView.swift,
+			);
+			target = F30498A22F0C82E100FAE88E /* MemoryGame2026UITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F304988E2F0C82DF00FAE88E /* MemoryGame2026 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3BA71E42F1EEA0A00EA865A /* Exceptions for "MemoryGame2026" folder in "MemoryGame2026UITests" target */,
+			);
 			path = MemoryGame2026;
 			sourceTree = "<group>";
 		};
@@ -75,6 +89,7 @@
 		F30498832F0C82DF00FAE88E = {
 			isa = PBXGroup;
 			children = (
+				F3BA71E22F1EE6ED00EA865A /* MemoryGame2026.xctestplan */,
 				F304988E2F0C82DF00FAE88E /* MemoryGame2026 */,
 				F304989C2F0C82E100FAE88E /* MemoryGame2026Tests */,
 				F30498A62F0C82E100FAE88E /* MemoryGame2026UITests */,
