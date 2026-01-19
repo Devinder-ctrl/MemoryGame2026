@@ -11,7 +11,7 @@ import SwiftUI
 struct MemoryGame2026App: App {
     var body: some Scene {
         WindowGroup {
-            GameView()
+            ContentView()
         }
     }
 }
