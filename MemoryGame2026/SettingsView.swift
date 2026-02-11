@@ -13,17 +13,17 @@ struct SettingsView: View {
     
     @AppStorage("curIndex") private var curIndex = 0
     @AppStorage("Bonus") private var Bonus: Bool = false
-    @AppStorage("value") private var value = 5
+    @Binding var size: Int
     var body: some View {
         
         VStack(spacing: 16) {
             
             ImagePickerView(curIndex: $curIndex)
             
-            Stepper ("\(value) Rows/Cols" , value: $value, in: 5...10)
-            
+            Stepper ("\(size) Rows/Cols" , value: $size, in: 5...10)
+                
             Toggle("Bonus", isOn: $Bonus)
-            
+               
                 .padding()
         }
     }
