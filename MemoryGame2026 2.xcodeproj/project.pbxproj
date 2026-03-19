@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3B19FD52F4CFDEB008C5AF3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3B19FD42F4CFDEB008C5AF3 /* Settings.bundle */; };
-		F3F8F5762F4AC72D001198C3 /* MemoryGameWatch2026 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F3F8F5562F4AC72C001198C3 /* MemoryGameWatch2026 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3BD1BC52F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F3BD1BA52F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,25 +25,25 @@
 			remoteGlobalIDString = F304988B2F0C82DF00FAE88E;
 			remoteInfo = MemoryGame2026;
 		};
-		F3F8F5632F4AC72D001198C3 /* PBXContainerItemProxy */ = {
+		F3BD1BB22F3FC1CD00FAD507 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F30498842F0C82DF00FAE88E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3F8F5552F4AC72C001198C3;
+			remoteGlobalIDString = F3BD1BA42F3FC1CB00FAD507;
 			remoteInfo = "MemoryGameWatch2026 Watch App";
 		};
-		F3F8F56D2F4AC72D001198C3 /* PBXContainerItemProxy */ = {
+		F3BD1BBC2F3FC1CD00FAD507 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F30498842F0C82DF00FAE88E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3F8F5552F4AC72C001198C3;
+			remoteGlobalIDString = F3BD1BA42F3FC1CB00FAD507;
 			remoteInfo = "MemoryGameWatch2026 Watch App";
 		};
-		F3F8F5742F4AC72D001198C3 /* PBXContainerItemProxy */ = {
+		F3BD1BC32F3FC1CD00FAD507 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F30498842F0C82DF00FAE88E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3F8F5552F4AC72C001198C3;
+			remoteGlobalIDString = F3BD1BA42F3FC1CB00FAD507;
 			remoteInfo = "MemoryGameWatch2026 Watch App";
 		};
 /* End PBXContainerItemProxy section */
@@ -56,7 +55,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				F3F8F5762F4AC72D001198C3 /* MemoryGameWatch2026 Watch App.app in Embed Watch Content */,
+				F3BD1BC52F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,26 +66,13 @@
 		F304988C2F0C82DF00FAE88E /* MemoryGame2026.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame2026.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30498992F0C82E100FAE88E /* MemoryGame2026Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGame2026Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30498A32F0C82E100FAE88E /* MemoryGame2026UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGame2026UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B19FD42F4CFDEB008C5AF3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		F3BA71E22F1EE6ED00EA865A /* MemoryGame2026.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MemoryGame2026.xctestplan; sourceTree = "<group>"; };
-		F3F8F5562F4AC72C001198C3 /* MemoryGameWatch2026 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemoryGameWatch2026 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3F8F5622F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryGameWatch2026 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3F8F56C2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryGameWatch2026 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD1BA52F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemoryGameWatch2026 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD1BB12F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryGameWatch2026 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD1BBB2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryGameWatch2026 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F35D8F322F4CAC7200A02E60 /* Exceptions for "MemoryGame2026" folder in "MemoryGameWatch2026 Watch App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Board.swift,
-				ContentView.swift,
-				GameView.swift,
-				ImagePickerView.swift,
-				SettingsView.swift,
-				Tile.swift,
-			);
-			target = F3F8F5552F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */;
-		};
 		F3BA71E42F1EEA0A00EA865A /* Exceptions for "MemoryGame2026" folder in "MemoryGame2026UITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -107,7 +93,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				F3BA71E42F1EEA0A00EA865A /* Exceptions for "MemoryGame2026" folder in "MemoryGame2026UITests" target */,
-				F35D8F322F4CAC7200A02E60 /* Exceptions for "MemoryGame2026" folder in "MemoryGameWatch2026 Watch App" target */,
 			);
 			path = MemoryGame2026;
 			sourceTree = "<group>";
@@ -122,17 +107,17 @@
 			path = MemoryGame2026UITests;
 			sourceTree = "<group>";
 		};
-		F3F8F5572F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */ = {
+		F3BD1BA62F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "MemoryGameWatch2026 Watch App";
 			sourceTree = "<group>";
 		};
-		F3F8F5652F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests */ = {
+		F3BD1BB42F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "MemoryGameWatch2026 Watch AppTests";
 			sourceTree = "<group>";
 		};
-		F3F8F56F2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests */ = {
+		F3BD1BBE2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "MemoryGameWatch2026 Watch AppUITests";
 			sourceTree = "<group>";
@@ -161,21 +146,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F5532F4AC72C001198C3 /* Frameworks */ = {
+		F3BD1BA22F3FC1CB00FAD507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F55F2F4AC72D001198C3 /* Frameworks */ = {
+		F3BD1BAE2F3FC1CD00FAD507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F5692F4AC72D001198C3 /* Frameworks */ = {
+		F3BD1BB82F3FC1CD00FAD507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,14 +173,13 @@
 		F30498832F0C82DF00FAE88E = {
 			isa = PBXGroup;
 			children = (
-				F3B19FD42F4CFDEB008C5AF3 /* Settings.bundle */,
 				F3BA71E22F1EE6ED00EA865A /* MemoryGame2026.xctestplan */,
 				F304988E2F0C82DF00FAE88E /* MemoryGame2026 */,
 				F304989C2F0C82E100FAE88E /* MemoryGame2026Tests */,
 				F30498A62F0C82E100FAE88E /* MemoryGame2026UITests */,
-				F3F8F5572F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */,
-				F3F8F5652F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests */,
-				F3F8F56F2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests */,
+				F3BD1BA62F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */,
+				F3BD1BB42F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */,
+				F3BD1BBE2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests */,
 				F304988D2F0C82DF00FAE88E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,9 +190,9 @@
 				F304988C2F0C82DF00FAE88E /* MemoryGame2026.app */,
 				F30498992F0C82E100FAE88E /* MemoryGame2026Tests.xctest */,
 				F30498A32F0C82E100FAE88E /* MemoryGame2026UITests.xctest */,
-				F3F8F5562F4AC72C001198C3 /* MemoryGameWatch2026 Watch App.app */,
-				F3F8F5622F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests.xctest */,
-				F3F8F56C2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests.xctest */,
+				F3BD1BA52F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App.app */,
+				F3BD1BB12F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests.xctest */,
+				F3BD1BBB2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,10 +212,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				F3F8F5752F4AC72D001198C3 /* PBXTargetDependency */,
+				F3BD1BC42F3FC1CD00FAD507 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				F304988E2F0C82DF00FAE88E /* MemoryGame2026 */,
+				F3BD1BB42F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */,
 			);
 			name = MemoryGame2026;
 			packageProductDependencies = (
@@ -286,72 +271,73 @@
 			productReference = F30498A32F0C82E100FAE88E /* MemoryGame2026UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		F3F8F5552F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */ = {
+		F3BD1BA42F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3F8F5772F4AC72D001198C3 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch App" */;
+			buildConfigurationList = F3BD1BCD2F3FC1CD00FAD507 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch App" */;
 			buildPhases = (
-				F3F8F5522F4AC72C001198C3 /* Sources */,
-				F3F8F5532F4AC72C001198C3 /* Frameworks */,
-				F3F8F5542F4AC72C001198C3 /* Resources */,
+				F3BD1BA12F3FC1CB00FAD507 /* Sources */,
+				F3BD1BA22F3FC1CB00FAD507 /* Frameworks */,
+				F3BD1BA32F3FC1CB00FAD507 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F3F8F5572F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */,
+				F3BD1BA62F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */,
+				F3BD1BB42F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */,
 			);
 			name = "MemoryGameWatch2026 Watch App";
 			packageProductDependencies = (
 			);
 			productName = "MemoryGameWatch2026 Watch App";
-			productReference = F3F8F5562F4AC72C001198C3 /* MemoryGameWatch2026 Watch App.app */;
+			productReference = F3BD1BA52F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3F8F5612F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests */ = {
+		F3BD1BB02F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3F8F57A2F4AC72D001198C3 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppTests" */;
+			buildConfigurationList = F3BD1BCE2F3FC1CD00FAD507 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppTests" */;
 			buildPhases = (
-				F3F8F55E2F4AC72D001198C3 /* Sources */,
-				F3F8F55F2F4AC72D001198C3 /* Frameworks */,
-				F3F8F5602F4AC72D001198C3 /* Resources */,
+				F3BD1BAD2F3FC1CD00FAD507 /* Sources */,
+				F3BD1BAE2F3FC1CD00FAD507 /* Frameworks */,
+				F3BD1BAF2F3FC1CD00FAD507 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3F8F5642F4AC72D001198C3 /* PBXTargetDependency */,
+				F3BD1BB32F3FC1CD00FAD507 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F3F8F5652F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests */,
+				F3BD1BB42F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */,
 			);
 			name = "MemoryGameWatch2026 Watch AppTests";
 			packageProductDependencies = (
 			);
 			productName = "MemoryGameWatch2026 Watch AppTests";
-			productReference = F3F8F5622F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests.xctest */;
+			productReference = F3BD1BB12F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3F8F56B2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests */ = {
+		F3BD1BBA2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3F8F57D2F4AC72D001198C3 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppUITests" */;
+			buildConfigurationList = F3BD1BCF2F3FC1CD00FAD507 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppUITests" */;
 			buildPhases = (
-				F3F8F5682F4AC72D001198C3 /* Sources */,
-				F3F8F5692F4AC72D001198C3 /* Frameworks */,
-				F3F8F56A2F4AC72D001198C3 /* Resources */,
+				F3BD1BB72F3FC1CD00FAD507 /* Sources */,
+				F3BD1BB82F3FC1CD00FAD507 /* Frameworks */,
+				F3BD1BB92F3FC1CD00FAD507 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3F8F56E2F4AC72D001198C3 /* PBXTargetDependency */,
+				F3BD1BBD2F3FC1CD00FAD507 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F3F8F56F2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests */,
+				F3BD1BBE2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests */,
 			);
 			name = "MemoryGameWatch2026 Watch AppUITests";
 			packageProductDependencies = (
 			);
 			productName = "MemoryGameWatch2026 Watch AppUITests";
-			productReference = F3F8F56C2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests.xctest */;
+			productReference = F3BD1BBB2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -375,16 +361,16 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = F304988B2F0C82DF00FAE88E;
 					};
-					F3F8F5552F4AC72C001198C3 = {
+					F3BD1BA42F3FC1CB00FAD507 = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					F3F8F5612F4AC72D001198C3 = {
+					F3BD1BB02F3FC1CD00FAD507 = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = F3F8F5552F4AC72C001198C3;
+						TestTargetID = F3BD1BA42F3FC1CB00FAD507;
 					};
-					F3F8F56B2F4AC72D001198C3 = {
+					F3BD1BBA2F3FC1CD00FAD507 = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = F3F8F5552F4AC72C001198C3;
+						TestTargetID = F3BD1BA42F3FC1CB00FAD507;
 					};
 				};
 			};
@@ -405,9 +391,9 @@
 				F304988B2F0C82DF00FAE88E /* MemoryGame2026 */,
 				F30498982F0C82E100FAE88E /* MemoryGame2026Tests */,
 				F30498A22F0C82E100FAE88E /* MemoryGame2026UITests */,
-				F3F8F5552F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */,
-				F3F8F5612F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppTests */,
-				F3F8F56B2F4AC72D001198C3 /* MemoryGameWatch2026 Watch AppUITests */,
+				F3BD1BA42F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */,
+				F3BD1BB02F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppTests */,
+				F3BD1BBA2F3FC1CD00FAD507 /* MemoryGameWatch2026 Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -417,7 +403,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B19FD52F4CFDEB008C5AF3 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,21 +420,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F5542F4AC72C001198C3 /* Resources */ = {
+		F3BD1BA32F3FC1CB00FAD507 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F5602F4AC72D001198C3 /* Resources */ = {
+		F3BD1BAF2F3FC1CD00FAD507 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F56A2F4AC72D001198C3 /* Resources */ = {
+		F3BD1BB92F3FC1CD00FAD507 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -480,21 +465,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F5522F4AC72C001198C3 /* Sources */ = {
+		F3BD1BA12F3FC1CB00FAD507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F55E2F4AC72D001198C3 /* Sources */ = {
+		F3BD1BAD2F3FC1CD00FAD507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8F5682F4AC72D001198C3 /* Sources */ = {
+		F3BD1BB72F3FC1CD00FAD507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,20 +499,20 @@
 			target = F304988B2F0C82DF00FAE88E /* MemoryGame2026 */;
 			targetProxy = F30498A42F0C82E100FAE88E /* PBXContainerItemProxy */;
 		};
-		F3F8F5642F4AC72D001198C3 /* PBXTargetDependency */ = {
+		F3BD1BB32F3FC1CD00FAD507 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3F8F5552F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */;
-			targetProxy = F3F8F5632F4AC72D001198C3 /* PBXContainerItemProxy */;
+			target = F3BD1BA42F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */;
+			targetProxy = F3BD1BB22F3FC1CD00FAD507 /* PBXContainerItemProxy */;
 		};
-		F3F8F56E2F4AC72D001198C3 /* PBXTargetDependency */ = {
+		F3BD1BBD2F3FC1CD00FAD507 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3F8F5552F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */;
-			targetProxy = F3F8F56D2F4AC72D001198C3 /* PBXContainerItemProxy */;
+			target = F3BD1BA42F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */;
+			targetProxy = F3BD1BBC2F3FC1CD00FAD507 /* PBXContainerItemProxy */;
 		};
-		F3F8F5752F4AC72D001198C3 /* PBXTargetDependency */ = {
+		F3BD1BC42F3FC1CD00FAD507 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3F8F5552F4AC72C001198C3 /* MemoryGameWatch2026 Watch App */;
-			targetProxy = F3F8F5742F4AC72D001198C3 /* PBXContainerItemProxy */;
+			target = F3BD1BA42F3FC1CB00FAD507 /* MemoryGameWatch2026 Watch App */;
+			targetProxy = F3BD1BC32F3FC1CD00FAD507 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -797,7 +782,7 @@
 			};
 			name = Release;
 		};
-		F3F8F5782F4AC72D001198C3 /* Debug */ = {
+		F3BD1BC72F3FC1CD00FAD507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -830,7 +815,7 @@
 			};
 			name = Debug;
 		};
-		F3F8F5792F4AC72D001198C3 /* Release */ = {
+		F3BD1BC82F3FC1CD00FAD507 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -863,7 +848,7 @@
 			};
 			name = Release;
 		};
-		F3F8F57B2F4AC72D001198C3 /* Debug */ = {
+		F3BD1BC92F3FC1CD00FAD507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -885,7 +870,7 @@
 			};
 			name = Debug;
 		};
-		F3F8F57C2F4AC72D001198C3 /* Release */ = {
+		F3BD1BCA2F3FC1CD00FAD507 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -907,7 +892,7 @@
 			};
 			name = Release;
 		};
-		F3F8F57E2F4AC72D001198C3 /* Debug */ = {
+		F3BD1BCB2F3FC1CD00FAD507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -928,7 +913,7 @@
 			};
 			name = Debug;
 		};
-		F3F8F57F2F4AC72D001198C3 /* Release */ = {
+		F3BD1BCC2F3FC1CD00FAD507 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -988,29 +973,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3F8F5772F4AC72D001198C3 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch App" */ = {
+		F3BD1BCD2F3FC1CD00FAD507 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3F8F5782F4AC72D001198C3 /* Debug */,
-				F3F8F5792F4AC72D001198C3 /* Release */,
+				F3BD1BC72F3FC1CD00FAD507 /* Debug */,
+				F3BD1BC82F3FC1CD00FAD507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3F8F57A2F4AC72D001198C3 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppTests" */ = {
+		F3BD1BCE2F3FC1CD00FAD507 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3F8F57B2F4AC72D001198C3 /* Debug */,
-				F3F8F57C2F4AC72D001198C3 /* Release */,
+				F3BD1BC92F3FC1CD00FAD507 /* Debug */,
+				F3BD1BCA2F3FC1CD00FAD507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3F8F57D2F4AC72D001198C3 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppUITests" */ = {
+		F3BD1BCF2F3FC1CD00FAD507 /* Build configuration list for PBXNativeTarget "MemoryGameWatch2026 Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3F8F57E2F4AC72D001198C3 /* Debug */,
-				F3F8F57F2F4AC72D001198C3 /* Release */,
+				F3BD1BCB2F3FC1CD00FAD507 /* Debug */,
+				F3BD1BCC2F3FC1CD00FAD507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
